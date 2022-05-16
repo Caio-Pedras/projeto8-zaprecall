@@ -7,7 +7,7 @@ export default function Card ({number, question, answer, setAnswerNumber, answer
     
     function colorChange (c,icon){
         setAnswerNumber(answerNumber+1)
-        if (c !== 'red') {
+        if (c === 'green') {
             setMeta(meta-1)
         }
         setColor(c)
