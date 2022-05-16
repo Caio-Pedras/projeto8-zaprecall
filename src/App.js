@@ -99,7 +99,7 @@ export default function App (){
     return (
     <>
         <Header/>
-        <Questions setAnswerNumber={setAnswerNumber} answerNumber={answerNumber} iconsArray={iconsArray} setIconsArray={setIconsArray} deck={deck} setMeta={setMeta} meta={meta}/>
+        <Questions setAnswerNumber={setAnswerNumber} answerNumber={answerNumber} iconsArray={iconsArray} setIconsArray={setIconsArray} deck={deck} setMeta={setMeta} meta={meta} setDeck={setDeck}/>
         <Footer answerNumber={answerNumber} iconsArray={iconsArray} result={result} setAnswerNumber={setAnswerNumber} setScreenDisplay={setScreenDisplay} setIconsArray={setIconsArray} meta={meta} setResult={setResult} setDeck={setDeck}/>
     </>
     )

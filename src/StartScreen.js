@@ -24,7 +24,7 @@ function screenDisplay(){
 }
 function changeDeck (value){
     let newArr = decks.filter((decks)=>decks.deckName===value)
-    setDeck(newArr[0])
+    setDeck(newArr[0].deckQuestions.sort(()=>Math.random()-0.5))
 }
 
 
