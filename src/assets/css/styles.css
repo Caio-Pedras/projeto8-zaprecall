@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #333333;
+}
+body{
+    background-color: #fb6b6b;
+   
+}
+.root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.mainLogo{
+    width: 200px;
+    height: auto;
+    margin-top: 110px;
+}
+h1{
+    font-family: 'Righteous', cursive;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 30px 0;
+}
+button{
+    border: 1px solid #D70900;
+    background-color: #FFFFFF;
+    height: 54px;
+    width: 246px;
+    border-radius: 5px;
+    color: #D70900;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+header{
+    display:flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+header img{
+    height: 60px;
+    width: 52px;
+}
+h2{
+    font-family: 'Righteous', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.frontCard{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 5px 0px #00000026;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family:'Recursive', sans-serif;
+    font-size: 16px;
+    font-weight:700;
+    width: 85%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+ion-icon{
+    width: 20px;
+    height: 23px;
+}
+.questionCard{
+    background-color: #FFFFD4;
+    padding: 20px 15px 5px 15px;
+    font-family:'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 85%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px 0px #00000026;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+}
+.questionCard img{
+    width: 30px;
+    height: 20px;
+    margin-top: 110px;
+}
+.answerCard{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFD4;
+    padding: 20px 15px 5px 15px;
+    font-family:'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 85%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px 0px #00000026;
+    margin-bottom: 25px;
+    height: 160px;
+}
+.answerCard button{
+    border: none;
+    height: 40px;
+    width: 85px;
+    border-radius: 5px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color:#FFFFFF;
+    
+}
+.answerButtons{
+    display: flex;
+    justify-content: space-between;
+}
+.redBG{
+    background-color: #FF3030;
+}
+.orangeBG{
+    background-color: #FF922E;
+}
+.greenBG{
+    background-color: #2FBE34;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frontCard .green, .red, .orange{
+    text-decoration: line-through;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    font-family: 'Recursive', sans-serif;
+    box-shadow: 0px -4px 6px 0px #0000000D;
+    min-height: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 25px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.finalResult{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #333333;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.resultStatus{
+    margin: 15px auto;
+    display: flex;
+    Font-size: 18px;
+    font-weight:700;
+}
+footer ion-icon{
+    height: 23px;
+    width: 23px;
+}
+.red{
+    color: #FF3030;
+}
+.orange{
+    color: #FF922E;
+}
+.green{
+    color: #2FBE34;
+}
+.answerIcons{
+    margin-top: 5px;
+}
+.restartButton{
+    background-color: #FB6B6B;
+    border: none;
+    font-family: 'Recursive', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin: 25px 0;
+}
+input {
+    border: none;
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 246px;
+    border-radius: 5px;
+    color: #D70900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ADADAD;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+select{
+    border: none;
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 246px;
+    border-radius: 5px;
+    color: #D70900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ADADAD;
+    padding: 10px;
+    margin-bottom: 20px;
+}
