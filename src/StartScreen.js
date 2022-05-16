@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "./assets/img/logo.svg";
-export default function StartScreen({setScreenDisplay,setDeck,decks,meta,setMeta}){
+export default function StartScreen({setScreenDisplay,setDeck,decks,meta,setMeta,deck}){
 
 function inputChange (e){
     setMeta(e.target.value)
@@ -8,6 +8,10 @@ function inputChange (e){
 function screenDisplay(){
     if (meta.length > 1){
         alert('Digite um número entre 1 e 8')
+        return
+    }
+    if (deck === ''){
+        alert('Por favor, selecione um deck')
         return
     }
     setMeta(parseInt(meta))

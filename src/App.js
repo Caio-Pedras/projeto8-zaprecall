@@ -94,13 +94,13 @@ export default function App (){
         ]
     
     if (screenDisplay === true) {
-        return <StartScreen  setScreenDisplay={setScreenDisplay} setDeck={setDeck} decks={decks} meta={meta} setMeta={setMeta}/>; 
+        return <StartScreen  setScreenDisplay={setScreenDisplay} setDeck={setDeck} decks={decks} meta={meta} setMeta={setMeta} deck={deck}/>; 
     }
     return (
     <>
         <Header/>
         <Questions setAnswerNumber={setAnswerNumber} answerNumber={answerNumber} iconsArray={iconsArray} setIconsArray={setIconsArray} deck={deck} setMeta={setMeta} meta={meta}/>
-        <Footer answerNumber={answerNumber} iconsArray={iconsArray} result={result} setAnswerNumber={setAnswerNumber} setScreenDisplay={setScreenDisplay} setIconsArray={setIconsArray} meta={meta} setResult={setResult}/>
+        <Footer answerNumber={answerNumber} iconsArray={iconsArray} result={result} setAnswerNumber={setAnswerNumber} setScreenDisplay={setScreenDisplay} setIconsArray={setIconsArray} meta={meta} setResult={setResult} setDeck={setDeck}/>
     </>
     )
 }
